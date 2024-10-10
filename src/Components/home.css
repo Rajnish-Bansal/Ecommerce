@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 600px) {
   .home-container {
-    outline: auto;
+/*     outline: auto; */
     height: 100%;
     width: 100%;
     display: flex;
