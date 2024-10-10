@@ -19,7 +19,7 @@
 
 .product-list {
   /* outline: auto; */
-  height: 90%;
+  height: 70%;
   width: 100%;
   display: flex;
   justify-content: space-around;
