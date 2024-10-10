@@ -112,7 +112,7 @@
   .mobile-header {
     outline: auto;
     height: 6%;
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -196,7 +196,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 98%;
+    width: 99%;
     height: 5%;
     background-color: orange;
     border-radius: 10px;
