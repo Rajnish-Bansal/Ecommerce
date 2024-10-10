@@ -41,7 +41,7 @@ function App() {
       <header className="mobile-header">
         <div className="mobile-header1">
           <select value={category} onChange={handleCategoryChange}>
-            <option value="" disabled>
+            <option value="/" disabled>
               Category
             </option>
             <option value="men's clothing">Men</option>
@@ -123,6 +123,53 @@ function App() {
         </div>
       </header>
       <div className="component-container">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Home
+                productDetails={productDetails}
+                setProductDetails={setProductDetails}
+                isloggedIn={isloggedIn}
+                search={search}
+              />
+            }
+          ></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+          <Route
+            path="/product/:id"
+            element={
+              <ProductDetails
+                productDetails={productDetails}
+                setProductDetails={setProductDetails}
+                setTotalPrice={setTotalPrice}
+                totalPrice={totalPrice}
+              />
+            }
+          ></Route>
+          <Route
+            path="/:category"
+            element={
+              <Category
+                category={category}
+                setCategory={setCategory}
+                productDetails={productDetails}
+                setProductDetails={setProductDetails}
+                isloggedIn={isloggedIn}
+                search={search}
+              />
+            }
+          ></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route
+            path="/login"
+            element={
+              <Login isloggedIn={isloggedIn} setIsLoggedIn={setIsLoggedIn} />
+            }
+          ></Route>
+        </Routes>
+      </div>
+      <div className="mobile-component-container">
         <Routes>
           <Route
             path="/"
