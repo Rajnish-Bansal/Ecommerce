@@ -1,0 +1,118 @@
+@media screen and (max-width: 600px) {
+  .home-container {
+    outline: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .home-container > h2 {
+    /* outline: auto; */
+    display: flex;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 91, 92);
+    /* margin-top: 1%; */
+    margin-bottom: 0;
+    font-size: 6vw;
+    margin: 0;
+  }
+
+  .product-list {
+    display: none;
+  }
+
+  .mobile-product-list {
+    outline: auto;
+    width: 100%;
+    height: 92%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-around;
+    /* display: none; */
+  }
+
+  /* .mobile-product-item {
+    outline: auto;
+    width: 95%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgba(128, 128, 128, 0.292);
+    margin-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    background-color: blue;
+  } */
+  
+  /* .mobile-product-title {
+    outline: auto;
+    min-height: 10%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-top: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 70vw;
+    background-color: orange;
+  } */
+/* 
+  .image-div {
+    outline: auto;
+    height: 70%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  } */
+/* 
+  .product-image {
+    outline: auto;
+    height: 60%;
+    width: 65%;
+  } */
+
+  /* .product-footer {
+    outline: auto;
+    width: 95%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  } */
+
+  /* .product-price {
+    outline: auto;
+    font-weight: bolder;
+    font-size: 1.1vw;
+  } */
+
+  /* .a2c-button {
+    outline: auto;
+    height: 80%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 2vw;
+    font-weight: 600;
+  } */
+}

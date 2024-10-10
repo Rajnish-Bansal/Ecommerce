@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+.home-container {
+  /* outline: auto; */
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.home-container > h2 {
+  /* outline: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(89, 91, 92);
+  margin-top: 0.5%;
+  margin-bottom: 0;
+  font-size: 2vw;
+}
+
+.product-list {
+  /* outline: auto; */
+  height: 98%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 2%; */
+  overflow-x: auto;
+  margin-top: 0;
+  /* margin-top: 1%; */
+}
+
+.product-item {
+  /* outline: auto; */
+  height: 69%;
+  width: 17%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 3px 2px 3px 2px rgba(128, 128, 128, 0.292);
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+
+.product-title {
+  /* outline: auto; */
+  min-height: 10%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin-top: 1%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  /* background-color: orange; */
+}
+
+.image-div {
+  /* outline: auto; */
+  height: 70%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.product-image {
+  /* outline: auto; */
+  height: 60%;
+  width: 65%;
+}
+
+.product-footer {
+  /* outline: auto; */
+  width: 95%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.product-price {
+  /* outline: auto; */
+  font-size: 1.1vw;
+}
+
+.product-footer > button {
+  /* outline: auto; */
+  height: 80%;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: 1vw;
+}
+
+.mobile-product-list {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    outline: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .home-container > h2 {
+    /* outline: auto; */
+    display: flex;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 91, 92);
+    /* margin-top: 1%; */
+    margin-bottom: 0;
+    font-size: 6vw;
+    margin: 0;
+  }
+
+  .product-list {
+    display: none;
+  }
+
+  .mobile-products-list {
+    /* outline: auto; */
+    width: 100%;
+    height: 92%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-around;
+    overflow: auto;
+    /* display: none; */
+  }
+
+  .mobile-product-item {
+    /* outline: auto; */
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-top: 1%;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 3px 2px 30px 2px rgba(128, 128, 128, 0.292);
+  }
+
+  .mobile-product-title {
+    /* outline: auto; */
+    min-height: 10%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-top: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    font-weight: 600;
+    /* background-color: orange; */
+  }
+
+  .mobile-image-div {
+    /* outline: auto; */
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mobile-product-image {
+    /* outline: auto; */
+    height: 70%;
+    width: 65%;
+  }
+
+  .mobile-product-footer {
+    /* outline: auto; */
+    width: 95%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .mobile-product-price {
+    /* outline: auto; */
+    font-weight: bolder;
+    font-size: 4vw;
+  }
+
+  .a2c-button {
+    height: 80%;
+    border-radius: 10px;
+    font-size: 3.5vw;
+    font-weight: 600;
+    background-color: orange;
+  }
+}

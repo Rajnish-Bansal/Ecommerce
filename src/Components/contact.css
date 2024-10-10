@@ -1,0 +1,171 @@
+.contact-container {
+  /* outline: auto; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-container > h2 {
+  /* outline: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(89, 91, 92);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 2vw;
+}
+
+.form-div {
+  /* outline: auto; */
+  height: 65%;
+  width: 45%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 3px rgba(128, 128, 128, 0.292);
+  /* background-color: aqua; */
+}
+
+form {
+  /* outline: auto; */
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form-group {
+  /* outline: auto; */
+  height: 10%;
+  width: 90%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  font-size: 1.1vw;
+}
+
+.form-group > input {
+  /* outline: auto; */
+  height: 70%;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 2%;
+  padding-left: 2%;
+  font-size: 1.1vw;
+}
+
+form > button {
+  /* outline: auto; */
+  border-radius: 10px;
+  height: 10%;
+  font-weight: 400;
+  background-color: orange;
+  font-size: 1.1vw;
+  /* font-size: 1rem; */
+}
+
+@media screen and (max-width: 600px) {
+  .contact-container {
+    /* outline: auto; */
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  }
+
+  .contact-container > h2 {
+    /* outline: auto; */
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 91, 92);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+    font-size: 5vw;
+  }
+
+  .form-div {
+    /* outline: auto; */
+    height: 70%;
+    width: 90%;
+    margin-bottom: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px rgba(128, 128, 128, 0.292);
+    /* background-color: aqua; */
+  }
+
+  form {
+    /* outline: auto; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .form-group {
+    /* outline: auto; */
+    height: 15%;
+    width: 90%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* background-color: aqua; */
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  .form-group > input {
+    /* outline: auto; */
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: 3vw;
+    margin-top: 1%;
+    /* outline: none; */
+  }
+
+  form > button {
+    /* outline: auto; */
+    border-radius: 10px;
+    height: 10%;
+    font-weight: 400;
+    background-color: orange;
+    font-size: 3vw;
+    font-weight: 600;
+    /* font-size: 1rem; */
+    
+  }
+}

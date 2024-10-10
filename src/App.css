@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-container {
+  /* outline: auto; */
+  height: 88vh;
+  width: 98vw;
+  margin-left: 0.5vw;
+  /* background-color: aqua; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  /* outline: auto; */
+  height: 8%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  box-shadow: 3px 2px 3px rgba(128, 128, 128, 0.292);
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 0;
+  background-color: orange;
+  font-size: 1.1vw;
+}
+
+.component-container {
+  /* outline: auto; */
+  width: 100%;
+  height: 95%;
+  margin-top: 0;
+  /* background-color: aqua; */
+}
+
+.header1 {
+  /* outline: auto; */
+  height: 80%;
+  min-width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+  /* display: none; */
+}
+
+.header2 {
+  /* outline: auto; */
+  height: 80%;
+  min-width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-bar {
+  /* outline: auto; */
+  height: 60%;
+  width: 20%;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 1%;
+  font-size: 1.2vw;
+}
+
+.header-items {
+  /* outline: auto; */
+  height: 80%;
+  padding: 0 6% 0 6%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border-left: 1px solid black;
+  /* box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.292); */
 }
 
-.App-link {
-  color: #61dafb;
+.mobile-header,
+.mobile-header2,
+.mobile-footer {
+  outline: auto;
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  /* outline: auto; */
+  /* display: none; */
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    /* outline: auto; */
+    height: 100vh;
+    width: 98vw;
+    margin-left: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
   }
-  to {
-    transform: rotate(360deg);
+
+  .mobile-header {
+    /* outline: auto; */
+    height: 6%;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 2px 3px rgba(128, 128, 128, 0.292);
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 0;
+    background-color: orange;
+    /* font-size: 1.1vw; */
+  }
+
+  .mobile-header1 > select {
+    /* outline: auto; */
+    height: 70%;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1%;
+    padding: 0 2% 0 2%;
+    border-radius: 10px;
+  }
+
+  .header {
+    /* outline: auto; */
+    display: none;
+  }
+
+  .mobile-search-bar {
+    /* outline: auto; */
+    height: 80%;
+    width: 45%;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 1%;
+    font-size: 4vw;
+  }
+
+  .mobile-header-items {
+    /* outline: auto; */
+    height: 70%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 3px 2px 3px 2px rgba(128, 128, 128, 0.292);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .component-container {
+    /* outline: auto; */
+    width: 98%;
+    height: 87%;
+    margin-top: 0;
+    /* background-color: aqua; */
+  }
+
+  .mobile-footer {
+    /* outline: auto; */
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%;
+    height: 5%;
+    background-color: orange;
+    border-radius: 10px;
+    /* margin-bottom: 1%; */
+  }
+
+  .mobile-footer-items {
+    /* outline: auto; */
+    height: 80%;
+    padding: 0 3% 0 3%;
+    display: flex;
+    min-width: 20%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 3px 2px 3px 2px rgba(128, 128, 128, 0.292);
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.292); */
   }
 }
