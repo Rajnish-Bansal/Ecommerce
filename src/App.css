@@ -93,6 +93,14 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .component-container {
+    /* outline: auto; */
+    width: 100%;
+    height: 90%;
+    margin-top: 0;
+  }
+  
   .main-container {
     /* outline: auto; */
     height: 100vh;
