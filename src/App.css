@@ -97,7 +97,7 @@
 @media screen and (max-width: 600px) {
   .main-container {
     /* outline: auto; */
-    height: 99vh;
+    height: 88vh;
     width: 98vw;
     margin-left: 0.5vw;
     display: flex;
