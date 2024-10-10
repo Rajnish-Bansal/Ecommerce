@@ -35,7 +35,7 @@
 .category-product-item {
   /* outline: auto; */
   height: 69%;
-  width: 20%;
+  width: 17%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -157,7 +157,7 @@
   .mobile-category-product-item {
     /* outline: auto; */
     height: 80%;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
